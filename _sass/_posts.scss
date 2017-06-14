@@ -1,0 +1,96 @@
+
+.posts {
+  margin: 0;
+}
+
+.posts .post {
+  margin-bottom: 0.75em;
+  border-bottom: thin solid #f3f3f3;
+}
+
+.posts .post:last-child {
+  border-bottom: none;
+  margin-bottom: .375em;
+  padding-bottom: 0;
+}
+
+.post-link .post-title {
+  margin-top: 0;
+  font-weight: 600;
+  color: #333;
+}
+
+.post-footer {
+  @extend .italic;
+
+  margin-top: .75rem;
+  text-align: center;
+}
+
+.post-footer .avatar {
+  margin: 2rem 0;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.meta,
+.post-meta {
+  width: auto;
+  font-weight: 300;
+  margin: 0;
+  padding: .25em 0;
+  color: #7a7a7a;
+  font-style: italic;
+}
+
+.related-post-title {
+  border-bottom: thin solid #f3f3f3;
+}
+
+
+
+h1.items-cat-title.items-cat-title-h1 {
+    border-bottom: 2px solid;
+}
+
+.items-cat-title {
+    font-weight: 300;
+    text-transform: capitalize;
+}
+
+h2.items-cat-title.items-cat-title-h2 {font-weight: 300;/* border-bottom: 1px solid; */margin-right: 400px;font-size: 45px;}
+
+h3.items-cat-title.items-cat-title-h3 {font-size: 34px;border-bottom: 1px solid;}
+
+h4.items-cat-title.items-cat-title-h4 {
+    padding: 15px 0;
+    font-size: 30px;
+}
+
+h5.items-cat-title.items-cat-title-h5 {
+    font-size: 25px;
+    font-weight: 500;
+    // border-bottom: 1px solid;
+    /* width: max-content; */
+    /* padding: 10px 20px; */
+    margin: a;
+}
+
+h6.items-cat-title.items-cat-title-h6 {
+    font-size: 20px;
+    text-transform: lowercase;
+}
+
+ul.tweet-list {
+    list-style: none;
+    padding: 0;
+}
+
+p.tweet-text {
+    font-size: 16px;
+}
+
+p.tweet-meta {
+    font-size: 14px;
+    margin-left: 20px;
+}
