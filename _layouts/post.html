@@ -9,7 +9,7 @@ layout: default
 <article class="post-content">
   These are the tweets for {{page.date | date: '%B %e, %Y'}}.
   {{ content }}
-  <p class="data-link"><a href="{{site.url}}/data/{{ page.date | date: site.date_format }}.json">JSON dataset</a></p>
+  <p class="data-link"><a href="{{ site.url }}{{ site.baseurl }}/data/{{ page.date | date: site.date_format }}.json">JSON dataset</a></p>
 </article>
 
 <!-- {% if site.show_sharing_icons %} -->
