@@ -8,8 +8,8 @@ layout: default
     <div class="posts">
     <h1 class="center" style="font-weight: 300;">Dates Available</h1>
       {% for post in paginator.posts %}
-        <div class="post py3">
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link center"><h3 class="h1 post-title">{{ post.date | date: site.date_format }}</h3></a>
+        <div class="post py2">
+          <a href="{{ site.baseurl }}/data/{{ post.date | date: '%Y-%m-%d' }}.json" class="post-link center"><h3 class="h1 post-title">{{ post.date | date: site.date_format }}</h3></a>
         <!--   <span class="post-summary">
             {% if post.summary %}
               {{ post.summary }}
