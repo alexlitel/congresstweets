@@ -1,6 +1,6 @@
 # Site settings
 title:       Tweets of Congress
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+description: "A project collecting the daily Twitter output of Congress."
 baseurl:     "/congresstweets"
 date_format: "%m-%d-%Y"
 
