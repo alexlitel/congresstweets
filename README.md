@@ -10,4 +10,4 @@ Due to size constraints, archives will cut off at some point, and because the au
 ## Acknowledgments
 
 * Jekyll site is built on [John Otander's Pixyll theme](https://github.com/johnotander/pixyll).
-* Dataset was created with the help of the [@unitedstates/congress](https://github.com/unitedstates/congress) project.
+* Dataset was created with the help of the [@unitedstates/congress-legislators](https://github.com/unitedstates/congress-legislators) project.
